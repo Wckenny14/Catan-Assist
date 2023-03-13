@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Catan-Assist/static/css/main.0258ce9e.css",
+    "main.js": "/Catan-Assist/static/js/main.5248d153.js",
+    "static/media/six.png": "/Catan-Assist/static/media/six.2bd2e818ad2433b3e1c5.png",
+    "static/media/catanMap.png": "/Catan-Assist/static/media/catanMap.f7c3253357829cf3c68e.png",
+    "static/media/three.png": "/Catan-Assist/static/media/three.abd5ca10cf6ae74d505f.png",
+    "static/media/five.png": "/Catan-Assist/static/media/five.233ce72e1a2c5373d82b.png",
+    "static/media/eight.png": "/Catan-Assist/static/media/eight.d48157c1c4e3af2e17b4.png",
+    "static/media/four.png": "/Catan-Assist/static/media/four.82810d90006563b16304.png",
+    "static/media/nine.png": "/Catan-Assist/static/media/nine.e3c595158c8e209f446b.png",
+    "static/media/ten.png": "/Catan-Assist/static/media/ten.120c0170c501d976d1ff.png",
+    "static/media/eleven.png": "/Catan-Assist/static/media/eleven.3050c89bfb9980d0f801.png",
+    "static/media/two.png": "/Catan-Assist/static/media/two.d868d3549ba6913a4b8a.png",
+    "static/media/twelve.png": "/Catan-Assist/static/media/twelve.01cf6bf3fb3cd7a0ec72.png",
+    "static/media/brick.png": "/Catan-Assist/static/media/brick.35e151b970683a9ed380.png",
+    "static/media/sheep.png": "/Catan-Assist/static/media/sheep.29a10705b5ee9b408756.png",
+    "static/media/lumber.png": "/Catan-Assist/static/media/lumber.d295c1bd16655793115e.png",
+    "static/media/wheat.png": "/Catan-Assist/static/media/wheat.39429883c2145d1c6be5.png",
+    "static/media/ore.png": "/Catan-Assist/static/media/ore.a07af81d03326a5f8d4a.png",
+    "static/media/score2.png": "/Catan-Assist/static/media/score2.035f32e59fc6e0eb4811.png",
+    "static/media/score1.png": "/Catan-Assist/static/media/score1.e233c7316a4b90a37434.png",
+    "static/media/desert.png": "/Catan-Assist/static/media/desert.757f5940a3cab5b9b84b.png",
+    "static/media/sheep_port.png": "/Catan-Assist/static/media/sheep_port.0879f219d3bd467c2268.png",
+    "static/media/brick_port.png": "/Catan-Assist/static/media/brick_port.7ee445b038203c2824e2.png",
+    "static/media/lumber_port.png": "/Catan-Assist/static/media/lumber_port.dd843ebaf51da799a9a2.png",
+    "static/media/wheat_port.png": "/Catan-Assist/static/media/wheat_port.fb9c82247ff34051cd93.png",
+    "static/media/three_port.png": "/Catan-Assist/static/media/three_port.99d98f5296b69d90b148.png",
+    "static/media/ore_port.png": "/Catan-Assist/static/media/ore_port.1cba9e9351d64d5cdb9f.png",
+    "static/media/robber.png": "/Catan-Assist/static/media/robber.1778031325fbb418f1a7.png",
+    "index.html": "/Catan-Assist/index.html",
+    "main.0258ce9e.css.map": "/Catan-Assist/static/css/main.0258ce9e.css.map",
+    "main.5248d153.js.map": "/Catan-Assist/static/js/main.5248d153.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0258ce9e.css",
+    "static/js/main.5248d153.js"
+  ]
+}
