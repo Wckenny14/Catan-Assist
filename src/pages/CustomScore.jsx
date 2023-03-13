@@ -1,9 +1,8 @@
 import React from 'react';
 import './CustomScore.css';
 import NavBar from '../components/NavBar/NavBar';
-import { GiFlyingFlag } from 'react-icons/gi'
-import { FaRegWindowClose } from 'react-icons/fa'
-import About from '../components/about/About';
+import { GiFlyingFlag } from 'react-icons/gi';
+import { FaRegWindowClose } from 'react-icons/fa';
 
 class CustomScore extends React.Component {
     constructor(props) {
@@ -187,7 +186,7 @@ class CustomScore extends React.Component {
     }
 
     render() {
-        const { players, dragons, longestRoad, merchant, chits, metropolisT, metropolis, metropolisS, city, settlement, victoryPoints } = this.state;
+        const { players, dragons, longestRoad, merchant, chits, metropolis, city, settlement, victoryPoints } = this.state;
         const ScienceFlag = <GiFlyingFlag className='Flag' size='25px' color='green' />
         const PoliticsFlag = <GiFlyingFlag className='Flag' size='25px' color='blue' />
         const TradeFlag = <GiFlyingFlag className='Flag' size='25px' color='yellow' />
