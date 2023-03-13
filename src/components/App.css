@@ -1,0 +1,8 @@
+body {
+  --seafarer-color: rgb(29, 152, 252);
+  --catanRed-color: rgb(188, 26, 32);
+  --catanYellow-color: rgb(237, 204, 85);
+  --catanFont: 'PT Serif', serif;
+  background-color: var(--seafarer-color);
+}
+

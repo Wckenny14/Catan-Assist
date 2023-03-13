@@ -1,0 +1,62 @@
+.NavBar {
+    background-color: rgb(188, 26, 32);
+    color: rgb(237, 204, 85);
+    font-family: 'PT Serif', serif;
+    height: 111px;
+    border-bottom: 3px solid var(--catanYellow-color);
+}
+.Hamburger {
+    /* padding-bottom: 15px; */
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+.NavBar ul li a {
+    color: black;
+    text-decoration: none;
+}
+a h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 63px;
+    color: rgb(237, 204, 85);
+    font-family: 'PT Serif', serif;
+}
+a {
+    text-decoration: none;
+}
+.NavBar-items {
+    display: flex;
+    justify-content: center;
+}
+.openMenu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    list-style: none;
+    background-color: var(--catanRed-color);
+    top: 93px;
+    right: 0;
+    width: 100%;
+    align-content: end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+/* .active {
+    display: none;
+} */
+.openLinks {
+    margin: 0 20px;
+    color: black;
+}
+.NavLinks {
+    width: 100%;
+}
+li {
+    color: black;
+}
+
+

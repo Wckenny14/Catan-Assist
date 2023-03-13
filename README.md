@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Catan Board Generator and Score Tracker App
+This is a web app for generating random boards for the board game Catan and tracking the score of each player during gameplay.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech 
+1. React.JS / JavaScript
+2. CSS / Material UI / React-Icons
 
-## Available Scripts
+## Installation
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running npm install.
+3. Start the app by running npm start.
 
-In the project directory, you can run:
+## Usage:
 
-### `npm start`
+### Board Generator
+1. Navigate to http://localhost:3000 in your web browser.
+2. Click the "Generate Board" button to generate a new random board.
+3. The board will consist of 19 tiles with random resources and numbers on them, as well as 9 ports with random trade ratios.
+4. Click on any tile to see its resource and number.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Map-Generator Logic: Use a shuffle function that creates a new array of elements in a random order. Use the shuffle function to create arrays for resources, numbers and ports. Take the index of each item in the three arrays and place them into fixed locations on the board
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Score Tracker
+1. To track the score of a player, keep clicking 'add player' until you have the desired number of players and then add each players name in the input fields.
+2. To mark that a player has built a settlement, click the + button under "Settlement" next to their name.
+3. To mark that a player has upgraded a settlement to a city, click the + button under "City" next to their name and the - button under "Settlement".
+4. To mark that a player has the longest road or largest army, tick the box under the corresponding title.
+5. The app will automatically calculate each player's total score, taking into account points from settlements, cities, and any other victory point cards they may have.
 
-### `npm test`
+### Custom Score Tracker
+I built an additional tracker that works in a similar way to the score tracker but can be customised to handle points scoring for the Seafarers, Cities and Knights and Dragons varients of the catan game
+1. Use the tick boxes to add what elements are included in your game
+2. To mark that a player has achieved one of the following, "Settlement", "City", "Dragons", "Victory Points" and "Chits", click the + button under the corrsponding title next to the players name and vice versa if a player has lost one of these elements
+3. To mark that a player has the longest road, merchant or a metropolis, tick the box under the corresponding title next to their name.
+4. The app will automatically calculate each player's total score, taking into account points from settlements, cities, dragons, chits, and any other victory point they may have.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Improvements
+1. Add a backend and database to allow players to login and save a game board that they like
+2. Update the map-generator logic to ensure the strongest numbers (6 and 8) are not next to each other on the board
+3. re-design and format the hex images to acheive a closer alignment on the map board

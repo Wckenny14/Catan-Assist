@@ -1,0 +1,101 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 5px auto;
+    border: 2px solid var(--catanRed-color);
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgb(243, 220, 162);
+    font-size: 15px;
+}
+.all-players {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: fit-content;
+}
+.addRemoveReset {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+.stnBtn {
+    margin: 0 15px;
+    cursor: pointer;
+    background-color: var(--catanRed-color);
+    color: var(--catanYellow-color);
+    font-family: 'PT Serif', serif;
+    border: 2px solid var(--catanYellow-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+.roadArmy {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Totalscore {
+    margin: 0 auto;
+    font-size: 40px;
+    color: var(--catanRed-color);
+    font-family: var(--catanFont)
+}
+h3 {
+    margin: 0 auto;
+    color: var(--catanRed-color);
+    text-decoration: none;
+    font-family: var(--catanFont);
+}
+.score {
+    padding: 0;
+    width: 40%;
+    margin: 10px 10px;
+}
+.score.plus {
+    border: 2px solid green;
+    color: white;
+    background-color: green;
+    border-radius: 2px;
+}
+.score.minus {
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+}
+input {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.scoreBtn {
+    display: flex;
+    justify-content: center;
+}
+.titles-score {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    width: 80%;
+}
+h4 {
+    margin: 0;
+}
+.count {
+    margin-left: 5px;
+}
+.playerName {
+    font-size: 20px;
+    text-align: center;
+}
+.container {
+    background-color: var(--seafarer-color);
+}

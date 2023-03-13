@@ -1,0 +1,146 @@
+img {
+    height: 10em;
+    width: auto;
+    display: inline-block;
+}
+
+.Generator-images {
+    align-items: center;
+    background-color: var(--seafarer-color);
+    padding-top: 40px;
+}
+
+.map {
+    margin: 20px 15px;
+    cursor: pointer;
+    background-color: var(--catanRed-color);
+    color: var(--catanYellow-color);
+    font-family: 'PT Serif', serif;
+    border: 2px solid var(--catanYellow-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button.map {
+    margin: 0;
+}
+.generate-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    margin: 0;
+}
+
+#board {
+    margin: auto;
+}
+
+.row {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.number_img {
+    height: 3em;
+    width: auto;
+    position: absolute;
+    top: -5.1em;
+    left: 4em;
+}
+
+
+/* ----- RESOURCES ----- */
+
+.hex-parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hex {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: rotate(30deg);
+    margin: -0.8em;
+    padding: 0;
+    /* height: 10em;
+    width: auto; */
+}
+
+
+/* ----- PORTS ----- */
+
+.port_img {
+    height: 5em;
+    width: auto;
+}
+
+.ports {
+    position: absolute;
+}
+
+#port_one {
+    top: -12.5em;
+    left: -1em;
+    transform: rotate(149deg);
+}
+
+#port_two {
+    top: -13em;
+    left: 6em;
+    transform: rotate(209deg);
+}
+
+#port_three {
+    top: -6em;
+    left: -4.6em;
+    transform: rotate(90deg);
+}
+
+#port_four {
+    top: -12.9em;
+    left: 6.3em;
+    transform: rotate(-152deg);
+}
+
+#port_five {
+    top: -6.5em;
+    left: 10.3em;
+    transform: rotate(-90deg);
+}
+
+#port_six {
+    top: -5.6em;
+    left: -4.7em;
+    transform: rotate(90deg);
+}
+
+#port_seven {
+    top: -0em;
+    left: 6.9em;
+    transform: rotate(-32deg);
+}
+
+#port_eight {
+    top: 0.3em;
+    left: -0.6em;
+    transform: rotate(29deg);
+}
+
+#port_nine {
+    top: -0.1em;
+    left: 7em;
+    transform: rotate(-33deg);
+}
